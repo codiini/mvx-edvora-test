@@ -88,13 +88,13 @@ export default function ModalForm() {
           <div className="w-full max-w-xs">
             <div className="mb-4 flex items-center justify-between">
               <div className="flex items-center gap-x-2">
-                <img src="./src/assets/icons/clock.svg" alt="Clock" />
+                <img src="/icons/clock.svg" alt="Clock" />
                 <p className="app-font-medium text-sm text-edvora-white-20">
                   Select time
                 </p>
               </div>
               <div className="flex items-center gap-x-2">
-                <img src="./src/assets/icons/profile.svg" alt="Clock" />
+                <img src="/icons/profile.svg" alt="Clock" />
                 <p className="app-font-medium text-sm text-edvora-white-20">
                   Add classmate
                 </p>
@@ -103,7 +103,7 @@ export default function ModalForm() {
             <div className="flex items-center justify-evenly gap-x-3">
               <div className="app-font-medium inline-block flex w-full cursor-pointer items-center justify-center gap-x-2 rounded bg-[#F9F8FF] px-6 py-2 text-edvora-white-20">
                 <p>Notification</p>
-                <img src="./src/assets/icons/arrow-down.svg" alt="Clock" />
+                <img src="/icons/arrow-down.svg" alt="Clock" />
               </div>
               <div className="app-font-medium inline-block flex w-full cursor-pointer items-center justify-center gap-x-2 rounded bg-[#F9F8FF] p-2 text-edvora-white-20">
                 30

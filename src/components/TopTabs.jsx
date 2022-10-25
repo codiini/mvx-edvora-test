@@ -48,11 +48,7 @@ export default function TopTabs() {
         <span className="app-font-medium inline-block rounded-md bg-[#F9F8FF] px-3 py-1 text-edvora-purple-70">
           00:03:22
         </span>
-        <img
-          className="cursor-pointer"
-          src="./src/assets/icons/play-btn.svg"
-          alt=""
-        />
+        <img className="cursor-pointer" src="/icons/play-btn.svg" alt="" />
       </div>
     </div>
   );

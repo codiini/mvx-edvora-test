@@ -20,10 +20,7 @@ export default function TextInput({ label, placeholder, type }) {
           >
             {label}
           </label>
-          <img
-            className="cursor-pointer"
-            src="./src/assets/icons/info-outline.svg"
-          />
+          <img className="cursor-pointer" src="icons/info-outline.svg" />
         </span>
         {type === "text" ? (
           <input
@@ -39,7 +36,7 @@ export default function TextInput({ label, placeholder, type }) {
                   <img
                     key={icon}
                     className="cursor-pointer"
-                    src={`./src/assets/icons//textarea/${icon}.svg`}
+                    src={`/icons/textarea/${icon}.svg`}
                   />
                 );
               })}

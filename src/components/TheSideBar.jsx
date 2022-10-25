@@ -1,4 +1,7 @@
 import { useState } from "react";
+import logo from "/icons/logo.svg";
+import arrowLeft from "/icons/arrow-left.svg";
+
 const TheSideBar = ({ isNavOpen }) => {
   const [open, setOpen] = useState(true);
   const Menus = [
@@ -21,7 +24,7 @@ const TheSideBar = ({ isNavOpen }) => {
         } fixed h-screen overflow-y-scroll bg-edvora-purple pt-14 pb-10 duration-300`}
       >
         <img
-          src="./src/assets/icons/arrow-left.svg"
+          src={arrowLeft}
           className={`absolute -right-3 top-28 w-8 cursor-pointer
             	 ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)}
@@ -29,7 +32,7 @@ const TheSideBar = ({ isNavOpen }) => {
         />
         <div className="mx-auto w-12 pb-6">
           <img
-            src="./src/assets/icons/logo.svg"
+            src={logo}
             className={`w-full cursor-pointer duration-500 ${
               open && "rotate-[360deg]"
             }`}
@@ -53,7 +56,7 @@ const TheSideBar = ({ isNavOpen }) => {
                   } absolute left-0 block h-full w-2 bg-edvora-yellow`}
                 ></span>
               )}
-              <img src={`./src/assets/icons/${menu.src}.svg`} />
+              <img src={`/icons/${menu.src}.svg`} />
               <span className={`${!open && "hidden"} origin-left duration-200`}>
                 {menu.title}
               </span>
@@ -89,7 +92,7 @@ const TheSideBar = ({ isNavOpen }) => {
                   menu.gap ? "mt-9" : "mt-2"
                 }`}
               >
-                <img src={`./src/assets/icons/${menu.src}.svg`} />
+                <img src={`/icons/${menu.src}.svg`} />
                 <span
                   className={`${!open && "hidden"} origin-left duration-200`}
                 >

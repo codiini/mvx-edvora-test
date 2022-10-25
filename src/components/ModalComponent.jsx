@@ -17,11 +17,11 @@ export default function ModalComponent({ showModal, setShowModal }) {
                       className="absolute right-0 -top-10 text-3xl"
                       onClick={() => setShowModal(false)}
                     >
-                      <img src="./src/assets/icons/close-btn.svg" alt="" />
+                      <img src="/icons/close-btn.svg" alt="" />
                     </button>
                   </div>
                 </div>
-                <div className="oveflow-scroll relative h-full p-8 bottom-4">
+                <div className="oveflow-scroll relative bottom-4 h-full p-8">
                   <ModalForm />
                 </div>
               </div>

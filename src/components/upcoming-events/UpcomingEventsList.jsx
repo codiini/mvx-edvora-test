@@ -87,7 +87,7 @@ const UpcomingEventsList = () => {
           onClick={() => setModalState(true)}
           className="app-font-medium flex items-center gap-x-2 rounded-[100px] bg-edvora-purple p-3 text-xs text-white hover:bg-edvora-purple-80"
         >
-          <img src="./src/assets/icons/add-square.svg" alt="add-button" />
+          <img src="/icons/add-square.svg" alt="add-button" />
           <span>Add new</span>
         </button>
       </div>

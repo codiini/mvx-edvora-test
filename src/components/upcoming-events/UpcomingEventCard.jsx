@@ -25,9 +25,9 @@ const UpcomingEventCard = ({ event }) => {
         </div>
         <div>
           {event.type === "classes" ? (
-            <img src="./src/assets/icons/timer.svg" alt="Timer icon" />
+            <img src="/icons/timer.svg" alt="Timer icon" />
           ) : (
-            <img src="./src/assets/icons/flag.svg" alt="Flag icon" />
+            <img src="/icons/flag.svg" alt="Flag icon" />
           )}
         </div>
       </div>

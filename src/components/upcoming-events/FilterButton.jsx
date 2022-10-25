@@ -7,9 +7,7 @@ const FilterButton = ({ name, color, bg, setFilter, icon, id, isActive }) => {
       } app-font-medium flex h-[47px] w-full items-center justify-center gap-x-3 rounded-lg py-2 text-sm font-bold`}
       onClick={() => setFilter(id)}
     >
-      {icon?.length ? (
-        <img src={`./src/assets/icons/${icon}.svg`} alt="" />
-      ) : null}
+      {icon?.length ? <img src={`/icons/${icon}.svg`} alt="" /> : null}
       <span>{name}</span>
     </button>
   );
