@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "AirbnbBold";
+  src: url("./assets/font/airbnb-cereal-font/AirbnbCereal_W_Bd.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "AirbnbMedium";
+  src: url("./assets/font/airbnb-cereal-font/AirbnbCereal_W_Md.otf")
+    format("opentype");
+}
+
+/* Global Styles */
+.app-font-bold {
+  font-family: "AirbnbBold";
+  font-weight: 700;
+}
+
+.app-font-medium {
+  font-family: "AirbnbMedium";
+  font-weight: 500;
+}
+
+/* React Calendar styles */
+.rdrCalendarWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.rdrMonthAndYearPickers {
+  font-size: 20px;
+}
+.rdrNextButton i {
+}
+.rdrMonth {
+  width: 24rem;
+}
+.rdrWeekDay {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #202020;
+  font-size: 11px;
+}
+.rdrDays button {
+  /* border-radius: 100%; */
+  /* height: 40px; */
+  /* width: 40px; */
+}
+.rdrDayNumber {
+  font-weight: 700;
+  font-family: "AirbnbMedium";
+}
+.rdrInRange {
+  /* border-radius: 100%; */
+}
+
+/* React Timeline Styles */
+.rt-layout__main {
+  width: calc(100% - 100px);
+}
+.rt-layout__side {
+  width: 100px;
+}
+.rt-track-key__toggle,
+.rt-controls,
+.rt-sidebar__header {
+  display: none;
+}
+.rt-track-key__entry {
+  padding-left: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.rt-track-key__title {
+  font-family: "AirbnbMedium";
+  font-weight: 500;
+  font-size: 12px;
+}
